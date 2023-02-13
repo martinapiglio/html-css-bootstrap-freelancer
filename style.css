@@ -40,3 +40,20 @@ header .header-txt {
     font-size: 18px;
 }
 /* / header */
+
+/* main */
+main #portfolio .container .section-title h2 {
+    margin: 0;
+}
+
+/*main #portfolio .container .portfolio-cards .portfolio-col {
+     add vertical spacing 
+}*/
+
+main #portfolio .container .portfolio-cards .col .portfolio-card {
+    height: 150px;
+    
+}
+
+
+/* /main */
