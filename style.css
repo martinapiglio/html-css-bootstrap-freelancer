@@ -61,10 +61,36 @@ main #portfolio .container .portfolio-cards .col .portfolio-card {
     height: 150px;
 }
 /* /TEST */
-
-
-
-
-
-
 /* /main */
+
+/* footer */
+footer {
+    color: white;
+}
+
+footer .footer-top {
+    background-color: #3a546d;
+}
+
+footer .footer-top .__container-small{
+    max-width: 1050px;
+}
+
+footer .footer-top .__container-small .row .col .row .icons {
+    padding: 0;
+}
+
+footer .footer-top .__container-small .row .col .row .icons a {
+    width: 2.5em;
+    height: 2.5em; 
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+footer .footer-bottom {
+    font-size: .7rem;
+    background-color: #2c3e50;
+}
+/* /footer */
