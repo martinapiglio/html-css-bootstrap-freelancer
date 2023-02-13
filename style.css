@@ -1,0 +1,17 @@
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+nav.navbar {
+    background-color: #2c3e50;
+}
+
+nav.navbar .nav-left {
+    font-size: 18px;
+}
+
+nav.navbar .nav-right {
+    font-size: 12px;
+}
