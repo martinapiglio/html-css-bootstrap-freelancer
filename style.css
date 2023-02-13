@@ -1,3 +1,23 @@
+/* general */
+header h1.header-title, 
+main #portfolio .container .section-title h2,
+main #about .container .row .col .text,
+main #contact-me .container .section-title h2 {
+    margin: 0;
+}
+
+header,
+main #about,
+main #contact-me .container .row .col button.btn-green {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+}
+
+main .__container {
+    max-width: 1000px;
+}
+
 /* nav */
 nav a {
     text-decoration: none;
@@ -19,12 +39,6 @@ nav.navbar .nav-right {
 /* /nav */
 
 /* header */
-header,
-main #about {
-    background-color: #1abc9c;
-    color: white;
-}
-
 /* TEST */
 header img {
     width: 150px;
@@ -32,21 +46,12 @@ header img {
     border: 1px solid black;
 }
 /* /TEST */
-
-header h1.header-title {
-    margin: 0;
-}
-
 header .header-txt {
     font-size: 18px;
 }
 /* / header */
 
 /* main */
-main #portfolio .container .section-title h2 {
-    margin: 0;
-}
-
 /*main #portfolio .container .portfolio-cards .portfolio-col {
      add vertical spacing 
 }*/
@@ -56,14 +61,6 @@ main #portfolio .container .portfolio-cards .col .portfolio-card {
     height: 150px;
 }
 /* /TEST */
-
-main #about .__container {
-    max-width: 1000px;
-}
-
-main #about .container .row .col .text {
-    margin: 0;
-}
 
 
 
