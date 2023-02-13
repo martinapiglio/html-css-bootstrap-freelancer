@@ -19,7 +19,8 @@ nav.navbar .nav-right {
 /* /nav */
 
 /* header */
-header {
+header,
+main #about {
     background-color: #1abc9c;
     color: white;
 }
@@ -50,10 +51,23 @@ main #portfolio .container .section-title h2 {
      add vertical spacing 
 }*/
 
+/* TEST */
 main #portfolio .container .portfolio-cards .col .portfolio-card {
     height: 150px;
-    
 }
+/* /TEST */
+
+main #about .__container {
+    max-width: 1000px;
+}
+
+main #about .container .row .col .text {
+    margin: 0;
+}
+
+
+
+
 
 
 /* /main */
