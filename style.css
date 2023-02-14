@@ -1,21 +1,9 @@
-/* general */
-header h1.header-title, 
-main #portfolio .container .section-title h2,
-main #about .container .row .col .text,
-main #contact-me .container .section-title h2 {
-    margin: 0;
-}
-
 header,
 main #about,
 main #contact-me .container .row .col button.btn-green {
     background-color: #1abc9c;
     color: white;
     border: none;
-}
-
-main .__container {
-    max-width: 1000px;
 }
 
 /* nav */
@@ -25,7 +13,7 @@ nav a {
     font-weight: 700;
 }
 
-nav.navbar {
+nav.__nav {
     background-color: #2c3e50;
 }
 
@@ -72,15 +60,11 @@ footer .footer-top {
     background-color: #3a546d;
 }
 
-footer .footer-top .__container-small{
-    max-width: 1050px;
-}
-
-footer .footer-top .__container-small .row .col .row .icons {
+footer .footer-top .container .row .col .row .icons {
     padding: 0;
 }
 
-footer .footer-top .__container-small .row .col .row .icons a {
+footer .footer-top .container .row .col .row .icons a {
     width: 2.5em;
     height: 2.5em; 
     border-radius: 50%;
